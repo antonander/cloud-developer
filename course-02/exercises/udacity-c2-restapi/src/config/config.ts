@@ -15,5 +15,8 @@ export const config = {
     "database": process.env.POSTGRESS_USERNAME,
     "host": process.env.POSTGRESS_USERNAME,
     "dialect": process.env.POSTGRESS_USERNAME
+  },
+  "jwt": {
+    "secret": "helloworld"
   }
 }
