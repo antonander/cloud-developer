@@ -46,3 +46,16 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+
+## Deliver notes
+
+- You can now access the endpoint thorugh: http://udagram-ander-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url={IMAGE_URL}.
+- The screenshot of the elastic beanstalk application dashboard after deployement was placed inside the 'deplyment_screenshots', it is named 'DEPLOLYMENT_SS.png'.
+
+### Credits
+
+I would sometimes get this as an error from from the Jimp.read() call:
+
+> Could not find MIME for Buffer <null>
+
+I'm not sure of the cause but, after some research, I ran into a solution that involved reading the image again using another request library. This solution was suggested by user codan84 on https://github.com/oliver-moran/jimp/issues/775.

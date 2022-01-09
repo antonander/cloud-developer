@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf www/ || true",
-    "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
+    "tsc": "tsc",
+    "clean": "rimraf www/ || true", 
+    "build": "npm run clean && tsc && cp package.json www/package.json && mkdirp www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
     "dev": "ts-node-dev ./src/server.ts"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "express": "^4.17.1",
     "jimp": "^0.16.1",
     "rimraf": "^3.0.2"
