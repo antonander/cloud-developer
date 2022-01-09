@@ -49,7 +49,7 @@ Add your own domain name and have it point to the running services (try adding a
 
 ## Delivery notes
 
-- You can now access the endpoint through: http://udagram-ander-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url={IMAGE URL}.
+- You can now access the endpoint through: http://udagram-ander-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url={IMAGE_URL}.
 - The screenshot of the elastic beanstalk application dashboard after deployement was placed inside the 'deplyment_screenshots', it is named 'DEPLOLYMENT_SS.png'.
 
 ### Credits
