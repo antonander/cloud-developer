@@ -47,9 +47,9 @@ Prevent requests without valid authentication headers.
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
 
-## Deliver notes
+## Delivery notes
 
-- You can now access the endpoint thorugh: http://udagram-ander-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url={IMAGE_URL}.
+- You can now access the endpoint through: http://udagram-ander-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url={IMAGE URL}.
 - The screenshot of the elastic beanstalk application dashboard after deployement was placed inside the 'deplyment_screenshots', it is named 'DEPLOLYMENT_SS.png'.
 
 ### Credits
